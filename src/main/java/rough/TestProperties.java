@@ -1,11 +1,13 @@
 package rough;
 
+import base.TestBase;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class TestProperties {
+public class TestProperties extends TestBase {
     public static void main(String[] args) throws IOException {
 
         System.out.println(System.getProperty("user.dir"));
@@ -20,6 +22,11 @@ public class TestProperties {
         OR.load(fileInputStream);
         System.out.println(config.getProperty("browser"));
         System.out.println(OR.getProperty("bmlBtn"));
+        log.trace("teste");
+        log.info("teste");
+
+
+
 
     }
 }
