@@ -1,5 +1,8 @@
 package base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -16,12 +19,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utilities.ExcelReader;
+import utilities.ExtentManager;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -40,6 +45,8 @@ public class TestBase {
     public static ExcelReader excelReader = new ExcelReader
             ("C:\\Users\\anicolle\\eclipse-workspace\\DataDrivenFramework\\src\\main\\resources\\excel\\testData.xlsx");
     public static WebDriverWait wait;
+    public ExtentReports reports = ExtentManager.getInstance();
+    public static ExtentTest test;
 
     @BeforeSuite
     public void setUp(){
@@ -144,6 +151,40 @@ public class TestBase {
                             TimeUnit.SECONDS);
             wait = new WebDriverWait(driver,5);
         }
+    }
+
+    public void click(String locator){
+        if(locator.endsWith("_CSS"))
+        {
+            driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+        }
+        else if(locator.endsWith("_XPATH"))
+        {
+            driver.findElement(By.xpath(OR.getProperty(locator))).click();
+        }
+        else if(locator.endsWith("_ID"))
+        {
+            driver.findElement(By.id(OR.getProperty(locator))).click();
+        }
+
+            test.log(LogStatus.INFO, "Clicking on : " + locator);
+
+    }
+
+    public void type(String locator, String value) {
+        if(locator.endsWith("_CSS")){
+            driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
+        }
+        else if(locator.endsWith("_XPATH"))
+        {
+            driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
+        }
+        else if(locator.endsWith("_ID"))
+        {
+            driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
+        }
+        test.log(LogStatus.INFO, "Typing in : " + locator + " and entered values " + value);
+
     }
 
     public boolean isElementPresent( By by){

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Capturing Screenshot]]>
+      <![CDATA[Click to see screenshot]]>
     </line>
     <line>
       <![CDATA[Login successfully executed!]]>
@@ -14,27 +14,30 @@
       <![CDATA[<br>]]>
     </line>
     <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
       <![CDATA[<a target ="_blank" href=error>Screenshot</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-11-28T12:34:43Z" name="Data Driven Basics" finished-at="2021-11-28T12:34:58Z" duration-ms="14995">
+  <suite started-at="2021-11-28T12:58:09Z" name="Data Driven Basics" finished-at="2021-11-28T12:58:29Z" duration-ms="20608">
     <groups>
     </groups>
-    <test started-at="2021-11-28T12:34:43Z" name="Login Test" finished-at="2021-11-28T12:34:44Z" duration-ms="847">
+    <test started-at="2021-11-28T12:58:09Z" name="Login Test" finished-at="2021-11-28T12:58:10Z" duration-ms="1109">
       <class name="testCases.LoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:testCases.LoginTest@1a6c1270]" started-at="2021-11-28T12:34:43Z" name="loginAsBankManager" finished-at="2021-11-28T12:34:44Z" duration-ms="832" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testCases.LoginTest@797cf65c]" started-at="2021-11-28T12:58:09Z" name="loginAsBankManager" finished-at="2021-11-28T12:58:10Z" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- testCases.LoginTest -->
     </test> <!-- Login Test -->
-    <test started-at="2021-11-28T12:34:44Z" name="LAdd Customer Test" finished-at="2021-11-28T12:34:58Z" duration-ms="14121">
+    <test started-at="2021-11-28T12:58:10Z" name="LAdd Customer Test" finished-at="2021-11-28T12:58:29Z" duration-ms="19449">
       <class name="testCases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddCustomerTest@324a0017]" started-at="2021-11-28T12:34:18Z" name="setUp" finished-at="2021-11-28T12:34:43Z" duration-ms="25576" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddCustomerTest@22875539]" started-at="2021-11-28T12:57:43Z" name="setUp" finished-at="2021-11-28T12:58:09Z" duration-ms="25451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AddCustomerTest@324a0017]" started-at="2021-11-28T12:34:44Z" name="addCustomer" data-provider="getData" finished-at="2021-11-28T12:34:49Z" duration-ms="4705" status="FAIL">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AddCustomerTest@22875539]" started-at="2021-11-28T12:58:10Z" name="addCustomer" data-provider="getData" finished-at="2021-11-28T12:58:15Z" duration-ms="4818" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -94,7 +97,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Capturing Screenshot]]>
+              <![CDATA[Click to see screenshot]]>
             </line>
             <line>
               <![CDATA[Login successfully executed!]]>
@@ -106,11 +109,14 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
               <![CDATA[<br>]]>
             </line>
             <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
               <![CDATA[<a target ="_blank" href=error>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddCustomerTest@324a0017]" started-at="2021-11-28T12:34:58Z" name="tearDown" finished-at="2021-11-28T12:34:59Z" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddCustomerTest@22875539]" started-at="2021-11-28T12:58:29Z" name="tearDown" finished-at="2021-11-28T12:58:30Z" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

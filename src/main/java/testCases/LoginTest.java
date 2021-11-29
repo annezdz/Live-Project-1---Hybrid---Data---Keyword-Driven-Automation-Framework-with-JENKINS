@@ -12,8 +12,8 @@ public class LoginTest extends TestBase {
     public void loginAsBankManager() throws InterruptedException {
 
             log.debug("Inside Login Test");
-            driver.findElement(By.xpath(OR.getProperty("bmlBtn"))).click();
-            Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn"))),
+            click("bmlBtn_XPATH");
+            Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn_XPATH"))),
                     "Login not succesfully");
             log.debug("Login successfully executed!");
 
