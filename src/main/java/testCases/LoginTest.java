@@ -2,6 +2,8 @@ package testCases;
 
 import base.TestBase;
 import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
@@ -9,7 +11,16 @@ public class LoginTest extends TestBase {
     @Test
     public void loginAsBankManager() throws InterruptedException {
 
-        driver.findElement(By.xpath(OR.getProperty("bmlBtn"))).click();
-        Thread.sleep(3000);
+            log.debug("Inside Login Test");
+            click("bmlBtn_XPATH");
+            Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn_XPATH"))),
+                    "Login not succesfully");
+            log.debug("Login successfully executed!");
+
+//            Assert.fail("Login not successful");
+
+
+
     }
+
 }

@@ -14,7 +14,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version>
+            <version>7.4.0</version>
         </dependency>
 
         <dependency>
@@ -30,10 +30,26 @@
         </dependency>
 
         <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>2.41.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.2.2</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.uncommons</groupId>
             <artifactId>reportng</artifactId>
             <version>1.1.4</version>
         </dependency>
+
+
 
         <dependency>
             <groupId>com.google.inject</groupId>
@@ -41,16 +57,12 @@
             <version>4.1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
+
 
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
-            <version>1.4.7</version>
+           <version>1.4.7</version>
         </dependency>
 
         <dependency>
@@ -95,15 +107,23 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.18.1</version>
+                <version>3.0.0-M3</version>
                 <configuration>
                     <testFailureIgnore> false </testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
-
+                        <suiteXmlFile>C:/Users//anicolle/eclipse-workspace/DataDrivenFramework/src/main/resources/runner/manager.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
+            </plugin>
 
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
             </plugin>
         </plugins>
     </build>
