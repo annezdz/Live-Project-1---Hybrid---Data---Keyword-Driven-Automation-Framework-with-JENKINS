@@ -23,6 +23,13 @@
             <version>4.4.3</version>
         </dependency>
 
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
@@ -50,7 +57,6 @@
         </dependency>
 
 
-
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
@@ -58,11 +64,10 @@
         </dependency>
 
 
-
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
-           <version>1.4.7</version>
+            <version>1.4.7</version>
         </dependency>
 
         <dependency>
@@ -109,9 +114,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M3</version>
                 <configuration>
-                    <testFailureIgnore> false </testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>C:/Users//anicolle/eclipse-workspace/DataDrivenFramework/src/main/resources/runner/manager.xml</suiteXmlFile>
+                        <suiteXmlFile>
+                            C:/Users//anicolle/eclipse-workspace/DataDrivenFramework/src/main/resources/runner/manager.xml
+                        </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
