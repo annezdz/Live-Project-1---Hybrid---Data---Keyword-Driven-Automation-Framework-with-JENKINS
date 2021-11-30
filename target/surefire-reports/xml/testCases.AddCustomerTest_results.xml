@@ -4,15 +4,15 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="4,708">
+           time="4,965">
   <properties />
-            <testcase name="addCustomer" time="4,708" classname="testCases.AddCustomerTest">
+            <testcase name="addCustomer" time="4,965" classname="testCases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="Customer not added successfully"
               >
 <![CDATA[java.lang.AssertionError: Customer not added successfully
   org.testng.Assert.fail(Assert.java:99)
-  testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:27)
+  testCases.AddCustomerTest.addCustomer(AddCustomerTest.java:29)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

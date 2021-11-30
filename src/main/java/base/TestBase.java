@@ -6,6 +6,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,10 +20,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utilities.ExcelReader;
@@ -41,7 +39,7 @@ public class TestBase {
     public static Properties config = new Properties();
     public static Properties OR = new Properties();
     public static FileInputStream fis;
-    public static final Logger log = LoggerFactory.getLogger("log4j.category.br.com.pacote1");
+    public static Logger log = Logger.getLogger("devpinoyLogger");
     public static ExcelReader excelReader = new ExcelReader
             ("C:\\Users\\anicolle\\eclipse-workspace\\DataDrivenFramework\\src\\main\\resources\\excel\\testData.xlsx");
     public static WebDriverWait wait;

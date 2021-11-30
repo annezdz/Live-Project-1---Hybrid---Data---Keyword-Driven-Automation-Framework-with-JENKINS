@@ -1,5 +1,6 @@
 base\TestBase.class
 utilities\ExtentManager.class
+testCases\OpenAccountTest.class
 rough\TestTimeStamp.class
 listeners\CustomListeners.class
 utilities\ExcelReader.class
