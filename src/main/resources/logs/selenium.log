@@ -1,17 +1,36 @@
-23:02:53,931 DEBUG devpinoyLogger:63 - Config file loaded!
-23:02:53,941 DEBUG devpinoyLogger:76 - OR file loaded!
-23:02:57,770 DEBUG devpinoyLogger:116 - Chrome launched
-23:03:21,548 DEBUG devpinoyLogger:145 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
-23:03:21,793 DEBUG devpinoyLogger:14 - Inside Login Test
-23:03:22,301 DEBUG devpinoyLogger:18 - Login successfully executed!
-23:03:22,347 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
-23:03:22,350 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
-23:03:22,353 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
-23:03:22,360 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:03:22,361 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:03:44,184 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
-23:03:44,185 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
-23:03:44,185 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
-23:03:44,191 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:03:44,191 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:03:45,783 DEBUG devpinoyLogger:204 - Test execution completed!
+00:25:52,460 DEBUG devpinoyLogger:68 - Config file loaded!
+00:25:52,469 DEBUG devpinoyLogger:81 - OR file loaded!
+00:25:56,910 DEBUG devpinoyLogger:121 - Chrome launched
+00:26:19,968 DEBUG devpinoyLogger:150 - Navigated to :http://www.way2automation.com/angularjs-protractor/banking/#/login
+00:26:22,241 DEBUG devpinoyLogger:19 - Inside Login Test
+00:26:23,061 DEBUG devpinoyLogger:23 - Login successfully executed!
+00:26:23,160 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:23,165 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:23,172 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:23,176 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:23,178 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:26:29,425 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:29,426 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:29,427 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:29,428 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:29,429 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:26:34,089 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:34,090 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:34,091 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:34,091 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:34,092 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:26:38,628 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:38,629 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:38,630 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:38,631 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:38,632 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:26:45,403 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:45,404 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:45,405 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:45,406 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:45,407 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:26:57,077 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("pt_BR", UTF-8, parsed); will try to load it.
+00:26:57,078 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt_BR.ftl"): Not found
+00:26:57,078 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_pt.ftl"): Not found
+00:26:57,079 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:26:57,079 DEBUG cache:45 - Loading template for "Extent.ftl"("pt_BR", UTF-8, parsed) from "jar:file:/C:/Users/anicolle/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

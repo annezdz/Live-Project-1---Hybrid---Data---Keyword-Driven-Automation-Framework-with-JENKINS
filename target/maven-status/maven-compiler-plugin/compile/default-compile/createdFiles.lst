@@ -5,6 +5,6 @@ rough\TestTimeStamp.class
 listeners\CustomListeners.class
 utilities\ExcelReader.class
 rough\TestProperties.class
+testCases\BankManagerLoginTest.class
 testCases\AddCustomerTest.class
-testCases\LoginTest.class
 utilities\TestUtil.class

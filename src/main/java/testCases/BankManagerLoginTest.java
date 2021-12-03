@@ -6,10 +6,15 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class LoginTest extends TestBase {
+import java.io.IOException;
+
+public class BankManagerLoginTest extends TestBase {
 
     @Test
-    public void loginAsBankManager() throws InterruptedException {
+    public void bankManagerLoginTest() throws InterruptedException, IOException {
+
+            //verifyEquals("abc","def");
+            Thread.sleep(2000);
 
             log.debug("Inside Login Test");
             click("bmlBtn_XPATH");
@@ -17,7 +22,7 @@ public class LoginTest extends TestBase {
                     "Login not succesfully");
             log.debug("Login successfully executed!");
 
-//            Assert.fail("Login not successful");
+           //Assert.fail("Login not successful");
 
 
 

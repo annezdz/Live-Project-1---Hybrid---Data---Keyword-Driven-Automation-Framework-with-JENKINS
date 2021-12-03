@@ -10,14 +10,21 @@
     
     <test verbose="2" preserve-order="true" name="Login Test">
         <classes>
-            <class name="testCases.LoginTest">
+            <class name="testCases.BankManagerLoginTest">
             </class>
         </classes>
     </test>
 
-    <test verbose="2" preserve-order="true" name="LAdd Customer Test">
+    <test verbose="2" preserve-order="true" name="Add Customer Test">
         <classes>
             <class name="testCases.AddCustomerTest">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Open Account Test">
+        <classes>
+            <class name="testCases.OpenAccountTest">
             </class>
         </classes>
     </test>

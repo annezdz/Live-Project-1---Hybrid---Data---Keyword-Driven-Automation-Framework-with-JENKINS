@@ -42,13 +42,14 @@ public class ExcelReader {
     // returns the row count in a sheet
     public int getRowCount(String sheetName){
         int index = workbook.getSheetIndex(sheetName);
+        int number = 0;
         if(index==-1)
             return 0;
         else{
             sheet = workbook.getSheetAt(index);
-            int number=sheet.getLastRowNum()+1;
-            return number;
+            number=sheet.getLastRowNum()+1;
         }
+        return number;
 
     }
 
